@@ -5,11 +5,6 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.scroll {
-    position: relative;
-    top: -70rem;
-}
-
 .container {
     position: relative;
     width: 100%;
@@ -103,17 +98,12 @@ h1 {
         left: -20rem;
     }
 
-    .scroll {}
 }
 
 @media screen and (max-width:1250px) {
     .ball1 {
         width: 20%;
         top: 15rem;
-    }
-
-    .scroll {
-        top: -48rem;
     }
 
     .ball2 {
@@ -132,10 +122,6 @@ h1 {
     .ball2 {
         width: 40%;
     }
-
-    .scroll {
-        top: -35rem;
-    }
 }
 
 @media screen and (max-width:760px) {
@@ -145,9 +131,6 @@ h1 {
         left: -36rem;
     }
 
-    .scroll {
-        top: -27rem;
-    }
 }
 
 

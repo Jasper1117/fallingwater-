@@ -35,12 +35,6 @@ const Faucet = () => {
       </Parallax>
       </div>
      
-      <Parallax scale={ [1, 0.2]}
-        opacity={[1,0]}
-        className="scroll"
-        >
-      <h1 >Scroll</h1>
-      </Parallax>
        <div className="ring">
       <Parallax rotate={[100, 10]} scale={ [0.7, 0.9]} className="ring1">
          <img src={ring1} alt="" />
