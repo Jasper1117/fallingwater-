@@ -14,7 +14,7 @@ const Faucet = () => {
     <div className='container'>
 
     <div className="faucetContainer">
-      <Parallax translateY={[-12000,36000]} opacity={[1,0.4]} scale={[0.9,-0.3]}>
+      <Parallax translateY={[-16000,47000]} opacity={[1,0]} scale={[0.9,-0.6]}>
         <img src={water} className="water" alt=""/>
       </Parallax>
         <Parallax translateY={[10, -20]} >

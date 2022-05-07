@@ -11,11 +11,15 @@ img.bowl {
     display: block;
 }
 
+.middleBall2 {
+    position: absolute;
+    left: 10rem;
+}
 
 .hor2 {
-    position: absolute;
-    width: 70%;
-    left: -20rem;
+    position: relative;
+    width: 20%;
+
 }
 
 .whiteBg {
@@ -31,7 +35,7 @@ img.bowl {
     text-align: center;
     top: -14rem;
     justify-content: center;
-    font-size: xx-large;
+    font-size: x-large;
     color: rgb(134, 134, 134);
 }
 
@@ -57,10 +61,6 @@ img.bowl {
         width: 70%;
     }
 
-    .hor2 {
-        width: 60%;
-    }
-
     .end {
         top: -7rem;
     }
@@ -69,6 +69,11 @@ img.bowl {
 @media screen and (max-width:1200px) {
     img.bowl {
         top: 32rem;
+    }
+
+    .hor2 {
+        width: 20%;
+
     }
 
     .whiteBg {
@@ -123,38 +128,56 @@ img.bowl {
     }
 
     .whiteBg {
-        top: 6em;
+        top: 7em;
+    }
+
+    .end {
+        top: -2rem;
     }
 }
 
 @media screen and (max-width:560px) {
     img.bowl {
-        top: 5rem;
+        top: 11rem;
     }
 
     .whiteBg {
-        top: -13rem;
+        top: -4rem;
+    }
+
+    .hor2 {
+        top: -20rem;
+        left: -10rem;
+        width: 60%;
+    }
+
+    .middleBall2 {
+        left: -10rem;
+        width: 60%;
+    }
+
+    .end {
+        top: -6rem;
+    }
+
+    body {
+        background-size: 100% 96%;
     }
 }
 
 @media screen and (max-width:480px) {
     img.bowl {
-        top: 2rem;
+        top: 9rem;
     }
 
-    .whiteBg {
-        top: -12.3rem;
-    }
+
 }
 
 @media screen and (max-width:430px) {
     img.bowl {
-        top: 1rem;
+        top: 8rem;
     }
 
-    .whiteBg {
-        top: -12.5rem;
-    }
 }
 
 

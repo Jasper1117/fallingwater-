@@ -102,6 +102,8 @@ h1 {
         width: 30%;
         left: -20rem;
     }
+
+    .scroll {}
 }
 
 @media screen and (max-width:1250px) {

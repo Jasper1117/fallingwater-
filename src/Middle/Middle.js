@@ -21,9 +21,7 @@ const Middle = () => {
         </Parallax>
         </div>
         
-        <Parallax scale={ [0.8, 0.1]} rotate={[0, 90]}>
-            <img src={middleBall} alt="" className='middleBall' />
-        </Parallax>
+    
     </div>
   )
 }
