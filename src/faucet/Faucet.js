@@ -3,33 +3,18 @@ import { Parallax } from 'react-scroll-parallax';
 
 import faucet from "../faucet/images/NewF-01.svg"
 import water from "../faucet/images/NewnewWater.svg"
-import bg from "../faucet/images/Bg1-01.png"
 import ball1 from "../faucet/images/ball1_4.svg"
 import ball2 from "../faucet/images/ball2-2.svg"
 import ring1 from "../faucet/images/ringball-01.svg"
 import "./faucet.css"
-import { useState,useEffect } from 'react';
 
 const Faucet = () => {
-  // const [ab, setAb]= useState(1000);
-  
-  // const changeAb=()=>{
-  //   if (window.innerWidth < 1168){
-  //     setAb(15000);
-  //   } if(window.innerWidth < 700){
-  //     setAb(30000);
-  //   } 
-  //   else{
-  //     setAb(30000);
-  //   }
-  // }
-  // const bc=-30;
 
   return (
     <div className='container'>
 
     <div className="faucetContainer">
-    <Parallax translateY={[-1800,5500]} opacity={[1,0.4]} scale={[0.9,-0.2]}>
+    <Parallax translateY={[-1900,5500]} opacity={[1,0.4]} scale={[0.9,-0.2]}>
         <img src={water} className="water" />
       </Parallax>
         <Parallax translateY={[10, -20]} >

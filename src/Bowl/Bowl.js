@@ -2,9 +2,7 @@ import React from 'react'
 import { Parallax } from 'react-scroll-parallax';
 import bowl from "../faucet/images/bowl-01.svg"
 import "../Bowl/bowl.css"
-import bg from "../faucet/images/Bg3-01.png"
 import whiteBg from "../faucet/images/whitebg2-01.svg"
-import horball1 from "../faucet/images/hor1-01.svg"
 import horball2 from "../faucet/images/hor2-01.svg"
 
 const Bowl = () => {
