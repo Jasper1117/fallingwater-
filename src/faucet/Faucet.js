@@ -15,22 +15,22 @@ const Faucet = () => {
 
     <div className="faucetContainer">
     <Parallax translateY={[-1900,5500]} opacity={[1,0.4]} scale={[0.9,-0.2]}>
-        <img src={water} className="water" />
+        <img src={water} className="water" alt=""/>
       </Parallax>
         <Parallax translateY={[10, -20]} >
-        <img src={faucet} className="faucet" />
+        <img src={faucet} className="faucet" alt=""/>
       </Parallax>
       </div>
         <Parallax scale={ [0.5, 0.7]}
         rotate={[0, -100]}
         opacity={[0.7,1]}
         >
-          <img src={ball2} className="ball2" />
+          <img src={ball2} className="ball2" alt=""/>
         </Parallax>
         <Parallax scale={ [0.28, 0.32]}
         rotate={[0, 10]}
         >
-          <img src={ball1} className="ball1" />
+          <img src={ball1} className="ball1" alt=""/>
         </Parallax>
      
      
