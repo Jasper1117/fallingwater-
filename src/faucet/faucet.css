@@ -18,9 +18,10 @@ h1 {
 }
 
 body {
-    background-image: url("../faucet/images/newBG1-01.png");
+    background-image: url("../faucet/images/NewBg_2-01.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+
 }
 
 img.bg {
@@ -43,19 +44,20 @@ img.faucet {
     position: relative;
     display: flex;
     width: 98.5%;
-    top: -2rem;
+    top: -5rem;
 }
 
 img.water {
     position: relative;
-    top: -2rem;
+    top: -10rem;
 
 }
 
 .ball1 {
     position: absolute;
-    top: -110rem;
-    right: -30rem;
+    top: -40rem;
+    right: -8rem;
+
 }
 
 .ball2 {
