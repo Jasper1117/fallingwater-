@@ -1,0 +1,190 @@
+img.bowl {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+    position: relative;
+    top: 49rem;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.horContainer {
+    position: relative;
+
+}
+
+.hor2 {
+    position: relative;
+    width: 70%;
+    left: 10rem;
+}
+
+.whiteBg {
+    position: relative;
+}
+
+body {
+    background-image: url("../faucet/images/NewBg3-01.png");
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: -20rem;
+    justify-content: center;
+    font-size: xx-large;
+    color: rgb(134, 134, 134);
+}
+
+@media screen and (max-width:1700px) {
+    img.bowl {
+        top: 42rem;
+    }
+
+    .end {
+        top: -9rem;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    img.bowl {
+        top: 32rem;
+        width: 70%;
+    }
+
+    .hor2 {
+        width: 60%;
+    }
+
+    .end {
+        top: -10rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    img.bowl {
+        top: 30rem;
+    }
+}
+
+@media screen and (max-width:1070px) {
+    img.bowl {
+        top: 25rem;
+    }
+}
+
+@media screen and (max-width:950px) {
+    img.bowl {
+        top: 24rem;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    img.bowl {
+        top: 23rem;
+        width: 100%;
+    }
+
+    .hor2 {
+        width: 50%;
+    }
+
+    .end {
+        top: -7rem;
+    }
+}
+
+@media screen and (max-width:780px) {
+    img.bowl {
+        top: 21rem;
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width:665px) {
+    img.bowl {
+        top: 9rem;
+        width: 100%;
+    }
+
+    body {
+        background-size: 100% 90%;
+        ;
+    }
+
+    .whiteBg {
+        top: -12rem;
+    }
+}
+
+@media screen and (max-width:590px) {
+    img.bowl {
+        top: 8rem;
+    }
+}
+
+@media screen and (max-width:560px) {
+    img.bowl {
+        top: 5rem;
+    }
+
+    .whiteBg {
+        top: -13rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    img.bowl {
+        top: 2rem;
+    }
+
+    .whiteBg {
+        top: -12.3rem;
+    }
+}
+
+@media screen and (max-width:430px) {
+    img.bowl {
+        top: 1rem;
+    }
+
+    .whiteBg {
+        top: -12.5rem;
+    }
+}
+
+@media screen and (max-width:365px) {
+    img.bowl {
+        top: 0rem;
+    }
+
+    .whiteBg {
+        top: -19rem;
+    }
+}
+
+@media screen and (max-width:365px) {
+    img.bowl {
+        top: -4rem;
+    }
+
+    .whiteBg {
+        top: -14rem;
+    }
+
+    body {
+        background-size: 100% 90%;
+        ;
+    }
+}
