@@ -11,26 +11,22 @@ img.bowl {
     display: block;
 }
 
-.horContainer {
-    position: relative;
-
+body {
+    background-image: url("../faucet/images/NewBg3-01.png");
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
 }
 
 .hor2 {
-    position: relative;
+    position: absolute;
     width: 70%;
-    left: 10rem;
+    left: -20rem;
 }
 
 .whiteBg {
     position: relative;
 }
 
-body {
-    background-image: url("../faucet/images/NewBg3-01.png");
-    background-size: 100% 99%;
-    background-repeat: no-repeat;
-}
 
 .end {
     display: flex;
