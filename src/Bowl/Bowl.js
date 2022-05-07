@@ -10,7 +10,7 @@ const Bowl = () => {
     <div className='bowelContainer'>
         <div className="horContainer" >
         <Parallax className='hor2' translateY={[10, -100]}
-        translateX={[0, 100]} scale={ [0.2, 0.3]}>
+        translateX={[0, 110]} scale={ [0.3, 0.2]}>
         <img src={horball2} alt=""/>
     </Parallax>
         </div>
@@ -19,7 +19,7 @@ const Bowl = () => {
         <img src={bowl} className="bowl" alt="" />
     </Parallax>
         <img src={whiteBg} className='whiteBg' alt=""/>
-        <p className='end'>Thank for watching!~</p>
+        <p className='end'>Thanks for watching!~</p>
     </div>
   )
 }

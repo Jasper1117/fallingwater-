@@ -4,7 +4,7 @@ img.bowl {
     margin-right: auto;
     width: 50%; */
     position: relative;
-    top: 4rem;
+    top: 56rem;
     width: 70%;
     margin-right: auto;
     margin-left: auto;
@@ -29,7 +29,7 @@ img.bowl {
     align-items: center;
     position: relative;
     text-align: center;
-    top: -20rem;
+    top: -14rem;
     justify-content: center;
     font-size: xx-large;
     color: rgb(134, 134, 134);
@@ -37,7 +37,7 @@ img.bowl {
 
 @media screen and (max-width:1700px) {
     img.bowl {
-        top: 45rem;
+        top: 52rem;
     }
 
     .end {
@@ -45,9 +45,15 @@ img.bowl {
     }
 }
 
+@media screen and (max-width:1450px) {
+    img.bowl {
+        top: 47rem;
+    }
+}
+
 @media screen and (max-width:1300px) {
     img.bowl {
-        top: 32rem;
+        top: 43rem;
         width: 70%;
     }
 
@@ -56,37 +62,37 @@ img.bowl {
     }
 
     .end {
-        top: -10rem;
+        top: -7rem;
     }
 }
 
 @media screen and (max-width:1200px) {
     img.bowl {
-        top: 30rem;
+        top: 32rem;
+    }
+
+    .whiteBg {
+        top: 3rem;
     }
 }
 
-@media screen and (max-width:1070px) {
+
+@media screen and (max-width:1050px) {
     img.bowl {
-        top: 25rem;
+        top: 29rem;
     }
 }
 
-@media screen and (max-width:950px) {
-    img.bowl {
-        top: 24rem;
-        width: 90%;
-    }
-}
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:890px) {
     img.bowl {
-        top: 23rem;
-        width: 100%;
+        top: 27rem;
+        width: 95%;
     }
 
     .hor2 {
         width: 50%;
+        left: -10rem;
     }
 
     .end {
@@ -96,33 +102,28 @@ img.bowl {
 
 @media screen and (max-width:780px) {
     img.bowl {
-        top: 21rem;
+        top: 24rem;
         width: 100%;
     }
-
-
-
 }
 
 @media screen and (max-width:665px) {
     img.bowl {
-        top: 9rem;
-        width: 100%;
+        top: 21rem;
     }
 
-    body {
-        background-size: 100% 90%;
-        ;
-    }
-
-    .whiteBg {
-        top: -12rem;
+    .end {
+        top: -5rem;
     }
 }
 
 @media screen and (max-width:590px) {
     img.bowl {
-        top: 8rem;
+        top: 22rem;
+    }
+
+    .whiteBg {
+        top: 6em;
     }
 }
 
@@ -156,27 +157,18 @@ img.bowl {
     }
 }
 
+
 @media screen and (max-width:365px) {
     img.bowl {
+        top: -9rem;
+    }
+
+    .whiteBg {
+        top: 8rem;
+    }
+
+    .end {
         top: 0rem;
-    }
-
-    .whiteBg {
-        top: -19rem;
-    }
-}
-
-@media screen and (max-width:365px) {
-    img.bowl {
-        top: -4rem;
-    }
-
-    .whiteBg {
-        top: -14rem;
-    }
-
-    body {
-        background-size: 100% 90%;
-        ;
+        font-size: medium;
     }
 }

@@ -5,6 +5,11 @@
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.scroll {
+    position: relative;
+    top: -70rem;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -21,6 +26,7 @@ body {
     background-image: url("../faucet/images/NewBg_2-01.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+
 
 }
 
@@ -53,16 +59,20 @@ img.water {
 
 }
 
+.ball {
+    position: relative;
+}
+
 .ball1 {
-    position: absolute;
-    top: -40rem;
+    position: relative;
+    top: -30rem;
     right: -8rem;
 
 }
 
 .ball2 {
-    position: absolute;
-    top: -110rem;
+    position: relative;
+
 
 
 }
@@ -78,94 +88,110 @@ h1 {
 
 }
 
-.ring {
+.ring1 {
     position: relative;
-    width: 150%;
-    left: -70rem;
+    top: 20rem;
+    left: -30rem;
 }
 
-@media screen and (max-width:1400px) {
 
-    .ring {
-        left: -60rem;
+@media screen and (max-width:1470px) {
+    .ball1 {}
+
+    .ball2 {
+        width: 30%;
+        left: -20rem;
     }
-
 }
 
-@media screen and (max-width:1200px) {
-
-    .ring {
-        left: -45rem;
+@media screen and (max-width:1250px) {
+    .ball1 {
+        width: 20%;
+        top: 15rem;
     }
 
+    .scroll {
+        top: -48rem;
+    }
+
+    .ball2 {
+        width: 35%;
+        left: -20rem;
+    }
 }
 
-@media screen and (max-width:860px) {
 
-    .ring {
-        left: -35rem;
-        width: 160%;
+@media screen and (max-width:920px) {
+
+    .ball1 {
+        top: -20rem;
     }
 
+    .ball2 {
+        width: 40%;
+    }
+
+    .scroll {
+        top: -35rem;
+    }
 }
 
 @media screen and (max-width:760px) {
 
-    .ball1 {
-        right: -23rem;
-        width: 50%;
+
+    .ring1 {
+        left: -36rem;
     }
 
-    .ring {
-        left: -31rem;
-    }
-
-}
-
-
-@media screen and (max-width:690px) {
-
-    .ball1 {
-        top: -150rem;
-        right: -10rem;
-        width: 50%;
-    }
-
-    .ball2 {
-        top: -95rem;
-        width: 50%;
-    }
-
-    .ring {
-        left: -26rem;
+    .scroll {
+        top: -27rem;
     }
 }
+
 
 @media screen and (max-width:650px) {
 
+    .ring1 {
+        width: 90%;
+        top: -10rem;
+        left: -31rem;
+    }
+
     .ball2 {
-        width: 100%;
-        left: -25rem;
-        top: -105rem;
+        left: -15rem;
     }
 
     .ball1 {
-        display: none;
+        top: -20rem;
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:570px) {
 
-    .ring {
-        left: -21rem;
-        width: 170%;
+    .ring1 {
+        width: 80%;
+        left: -36rem;
+    }
+
+    .ball1 {
+        top: -15rem;
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:490px) {
 
-    .ring {
-        left: -17rem;
-        width: 170%;
+    .ring1 {
+        left: -41rem;
+        max-width: 20%;
+    }
+}
+
+
+@media screen and (max-width:370px) {
+
+    .ring1 {
+
+        left: -43rem;
+
     }
 }

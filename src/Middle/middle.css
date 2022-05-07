@@ -31,6 +31,7 @@
 .rightLorem {
     display: flex;
     flex-direction: column;
+    position: relative;
     justify-content: center;
     align-items: flex-end;
     padding-right: 5rem;
@@ -56,7 +57,7 @@ h2 {
     .leftLorem {
         align-items: center;
         padding-left: 0;
-        top: -20rem;
+        top: -18rem;
     }
 
     .leftLoremP {
@@ -73,9 +74,20 @@ h2 {
     }
 
     .middleBall {
-        top: 1rem;
-        left: -2rem;
+        top: 30rem;
+        left: 20rem;
     }
+}
+
+@media screen and (max-width:650px) {
+    .leftLorem {
+        top: -30rem;
+    }
+
+    .rightLorem {
+        top: -20rem;
+    }
+
 }
 
 @media screen and (max-width:500px) {
