@@ -11,9 +11,13 @@ img.bowl {
     display: block;
 }
 
+.bottomBall {
+    width: 100%;
+}
+
 .middleBall2 {
     position: absolute;
-    left: 10rem;
+
 }
 
 .hor2 {
@@ -84,7 +88,7 @@ img.bowl {
 
 @media screen and (max-width:1050px) {
     img.bowl {
-        top: 29rem;
+        top: 28rem;
     }
 }
 
@@ -107,7 +111,7 @@ img.bowl {
 
 @media screen and (max-width:780px) {
     img.bowl {
-        top: 24rem;
+        top: 23rem;
         width: 100%;
     }
 }
@@ -170,12 +174,19 @@ img.bowl {
         top: 9rem;
     }
 
+    .whiteBg {
+        height: 90%;
+    }
 
 }
 
 @media screen and (max-width:430px) {
     img.bowl {
-        top: 8rem;
+        top: 5rem;
+    }
+
+    .whiteBg {
+        top: -6rem;
     }
 
 }
@@ -183,11 +194,11 @@ img.bowl {
 
 @media screen and (max-width:365px) {
     img.bowl {
-        top: -9rem;
+        top: 5rem;
     }
 
     .whiteBg {
-        top: 8rem;
+        top: -5rem;
     }
 
     .end {

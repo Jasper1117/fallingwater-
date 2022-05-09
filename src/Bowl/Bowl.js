@@ -9,9 +9,9 @@ import middleBall from "../faucet/images/endball2-01.png"
 const Bowl = () => {
   return (
     <div className='bowelContainer'>
-        <div>
-        <Parallax className='hor2' translateY={[100, -100]}
-        translateX={[10, 150]} scale={[0.9,-0.3]}>
+        <div className='bottomBall'>
+        <Parallax className='hor2' translateY={[80, -100]}
+        translateX={[10, 100]} scale={[0.7,-0.3]}>
         
         <img src={horball2} alt=""/>
     </Parallax>

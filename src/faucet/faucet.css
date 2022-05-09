@@ -25,6 +25,10 @@ body {
 
 }
 
+.ball {
+    overflow: hidden;
+}
+
 img.bg {
     width: 100%;
     position: absolute;

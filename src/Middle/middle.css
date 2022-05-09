@@ -1,9 +1,3 @@
-.middleBall {
-    position: absolute;
-    left: -30rem;
-    top: -14rem;
-}
-
 .workContainer {
     grid-template-columns: 1fr 2fr;
 }
